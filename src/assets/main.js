@@ -6,9 +6,8 @@ const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC5HdVtarytnZi4
 /*referencia para la info de la api mediante el template */
 /* Es una forma de comprobar si el elemento existe. Si no es así, será nulo. */
 const content = null || document.getElementById('content');
-
-import options from './apikey.js';
-
+/* Importación de la clave API desde un archivo separado. */
+import options from "./apikey.js";
 
 /*fetch es una promesa */
 
