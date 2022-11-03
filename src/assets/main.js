@@ -2,16 +2,12 @@
  a variadas apis gratuitas y de pago*/
 
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC5HdVtarytnZi4eLogHAfoQ&part=snippet%2Cid&order=date&maxResults=8';
-const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': '525d8cdd32msh1a9eb43a230b33ep17d4cajsn0dd9e8dab7ef',
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-    }
-};
+
 /*referencia para la info de la api mediante el template */
 /* Es una forma de comprobar si el elemento existe. Si no es así, será nulo. */
 const content = null || document.getElementById('content');
+
+import options from './apikey.js';
 
 
 /*fetch es una promesa */
